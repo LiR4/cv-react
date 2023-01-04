@@ -1,0 +1,33 @@
+.App {
+    background-image: url("./Assets/wall.jpg" );
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "a-w0nw1 a-w0nw1"
+    "a-MZ7AG a-16VNL"
+    "a-MZ7AG a-jYAK1-0";
+    grid-template-columns: 80px ;
+    grid-template-rows: auto 1fr 1fr;
+}
+
+  
+.a-w0nw1 {
+    grid-area: a-w0nw1;
+}
+.a-MZ7AG {
+    grid-area: a-MZ7AG;
+}
+.a-16VNL {
+    grid-area: a-16VNL;
+}
+  .a-jYAK1-0 {
+    grid-area: a-jYAK1-0;
+}
