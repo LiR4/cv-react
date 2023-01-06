@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
-import Rotas from "./Rotas/rotas";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Rotas/>
+      <Home />
     </div>
   );
 }
