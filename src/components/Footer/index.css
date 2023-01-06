@@ -55,3 +55,15 @@
   }
   
 }
+
+@media all and (max-width: 425px) {
+  .containerF {
+    padding-right: 7rem;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .containerF {
+    padding-right: 3rem;
+  }
+}

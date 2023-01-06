@@ -63,6 +63,12 @@
   font-size: 36px;
 }
 
+.a-pZ9mM a {
+  color: #ffffff;
+  
+}
+
+
 .space {
   padding: 1rem;
 }
@@ -125,7 +131,7 @@
 @media all and (max-width: 791px) {
   .a-46W3X p {
     color: #fff;
-    font-size: 52px;
+    font-size: 42px;
   }
 
   .a-pZ9mM p {
@@ -143,7 +149,7 @@
 @media all and (max-width: 591px) {
   .a-46W3X p {
     color: #fff;
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .a-pZ9mM p {
@@ -161,4 +167,11 @@
   }
 
 
+}
+
+@media all and (max-width: 425px) {
+  .a-46W3X p {
+    color: #fff;
+    font-size: 22px;
+  }
 }

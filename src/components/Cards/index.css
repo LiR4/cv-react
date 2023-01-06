@@ -145,16 +145,16 @@
 @media all and (max-width: 425px) {
  
   .swiper {
-    width: 270px;
+    width: 570px;
   }
 
   .swiper .swiper-wrapper {
-    padding: 5px;
+    padding: 6px;
   }
 
   .slides {
-    width: 72px;
-    height: 62px;
+    width: 82px;
+    height: 82px;
     padding: 12px;
   }
 
@@ -164,11 +164,42 @@
   }
 
   #nome {
-    font-size: 6px;
+    font-size: 8px;
   }
 
   .slides p {
-    font-size: 4px;
+    font-size: 8px;
+  }
+
+}
+
+@media all and (max-width: 320px) {
+ 
+  .swiper {
+    width: 270px;
+  }
+
+  .swiper .swiper-wrapper {
+    padding: 6px;
+  }
+
+  .slides {
+    width: 78px;
+    height: 82px;
+    padding: 12px;
+  }
+
+  .a-k260o img {
+    max-width: 18px;
+    max-height: 18px;
+  }
+
+  #nome {
+    font-size: 8px;
+  }
+
+  .slides p {
+    font-size: 8px;
   }
 
 }

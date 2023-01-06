@@ -88,16 +88,17 @@
   }
 
   .containerH {
+    
     height: 1200px;
   }
 
 }
 
 
-@media all and (max-width: 421px) {
+@media all and (max-width: 425px) {
 
   .containerH {
-    height: 900px;
+    height: 1000px;
   }
   
 }
