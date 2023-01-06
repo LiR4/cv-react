@@ -1,0 +1,47 @@
+.containerF {
+  display: grid;
+  width: 100%;
+  height: 20%;
+  grid-template-areas:
+    "a-w0nq2-0 a-jYA95"
+    "a-w0nq2-1 a-k260B";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 10rem;
+}
+
+.a-w0nq2-0 {
+  grid-area: a-w0nq2-0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-jYA95 {
+  grid-area: a-jYA95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-w0nq2-1 {
+  grid-area: a-w0nq2-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-k260B {
+  grid-area: a-k260B;
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+  
+}
+
+
+.containerF a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#cont{
+  color: #fff;
+}

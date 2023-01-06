@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Logo from "../../Assets/logo.png";
+import "./index.css";
 
 import React from "react";
 
@@ -20,7 +21,7 @@ export default function Header() {
             <Nav>
               <Nav.Link href="#Hab">Habilidades</Nav.Link>
               <Nav.Link href="#Pro">Projetos</Nav.Link>
-              <Nav.Link href="#Cont">Contatos</Nav.Link>
+              <Nav.Link href="#cont">Contatos</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

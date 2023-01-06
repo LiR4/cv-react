@@ -1,0 +1,10 @@
+.swiper {
+  background-color: #1f3348;
+
+  border-radius: 5px;
+}
+
+.swiper-wrapper {
+  padding: 3.5rem;
+  border-radius: 5px;
+}

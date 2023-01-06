@@ -1,0 +1,45 @@
+.slides {
+  color: #ffffff;
+  background-color: #162433;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  grid-template-areas:
+    "a-k260o a-83XNQ"
+    "a-DqwV0 a-DqwV0";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 325px;
+  height: 275px;
+  padding: 1.5rem;
+}
+
+.a-k260o {
+  grid-area: a-k260o;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.a-83XNQ {
+  grid-area: a-83XNQ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a-DqwV0 {
+  grid-area: a-DqwV0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-k260o img {
+  width: 72px;
+  height: 72px;
+}
+
+#nome {
+  font-size: 32px;
+}
