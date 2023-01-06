@@ -1,7 +1,7 @@
 
 # link
 
-https://vc-lira.netlify.app
+https://cv-lira.netlify.app
 
 
 # Getting Started with Create React App
