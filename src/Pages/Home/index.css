@@ -1,62 +1,103 @@
-.container {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-areas: "a-w0nw1 a-w0nw1"
+.containerH {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas:
+    "a-w0nw1 a-w0nw1"
     "a-MZ7AG a-16VNL"
     "a-MZ7AG a-jYAK1-0";
-    grid-template-columns: 80px ;
-    grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: 80px;
+  grid-template-rows: auto 1fr 1fr;
+  height: 2600px;
 }
 
-  
 .a-w0nw1 {
-    grid-area: a-w0nw1;
+  grid-area: a-w0nw1;
 }
 .a-MZ7AG {
-    grid-area: a-MZ7AG;
-    height: 99%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 99%;
-    
+  grid-area: a-MZ7AG;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 99%;
 }
 .a-16VNL {
-    grid-area: a-16VNL;
-}
-  .a-jYAK1-0 {
-    grid-area: a-jYAK1-0;
-    height: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  grid-area: a-16VNL;
 }
 
-.line{
-    animation: lineAnimation 1s ease 2s 1 normal backwards;
-    width: 2%;
-    height: 95%;
-    padding: 1.5px;
-    border-radius: 5px;
-    background-color: #57D1EC;
-    box-shadow: 0px 1px 2px rgba(87, 209, 236, 1),
-            	0px 2px 4px rgba(87, 209, 236, 1),
-                0px 4px 8px rgba(87, 209, 236, 1),
-                0px 8px 16px rgba(87, 209, 236, 1);
-   
+.a-jYAK1-0 {
+  grid-area: a-jYAK1-0;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.line {
+  animation: lineAnimation 1s ease 2s 1 normal backwards;
+  width: 1%;
+  height: 95%;
+  padding: 0.5px;
+  border-radius: 5px;
+  background-color: #57d1ec;
+  box-shadow: 0px 1px 2px rgba(87, 209, 236, 1),
+    0px 2px 4px rgba(87, 209, 236, 1), 0px 4px 8px rgba(87, 209, 236, 1),
+    0px 8px 16px rgba(87, 209, 236, 1);
+}
 
 
 @keyframes lineAnimation {
-	0% {
-		transform: scaleY(0);
-		transform-origin: 100% 0%;
-	}
+  0% {
+    transform: scaleY(0);
+    transform-origin: 100% 0%;
+  }
 
-	100% {
-		transform: scaleY(1);
-		transform-origin: 100% 0%;
-	}
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0%;
+  }
+}
+
+
+@media all and (max-width: 1200px) {
+
+  .containerH {
+    height: 2200px;
+  }
+  
+}
+
+@media all and (max-width: 791px) {
+
+  .containerH {
+    height: 1800px;
+  }
+  
+}
+
+
+@media all and (max-width: 591px) {
+
+  .a-16VNL {
+    width: 75%;
+  }
+
+  .a-MZ7AG {
+    justify-content: center;
+  }
+
+  .containerH {
+    height: 1200px;
+  }
+
+}
+
+
+@media all and (max-width: 421px) {
+
+  .containerH {
+    height: 900px;
+  }
+  
 }

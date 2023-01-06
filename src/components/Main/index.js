@@ -17,7 +17,7 @@ export default function Main() {
         </div>
         <div class="a-pZ9mM">
           <p>
-            Olá como vai ? Me chamo Pedro, mas pode me chamar de Lira. Clique
+            Olá como vai. Me chamo Pedro, mas pode me chamar de Lira. Clique
             aqui para ver a carta de apresentação.
           </p>
         </div>

@@ -1,10 +1,5 @@
-.a-K8Ay4 img {
-    width: 330px;
-    height: 330px;
-    border: 1px solid #57d1ec;
+.navbar-nav a {
+  color: #fff;
+  font-size: 16px;
 }
 
-.navbar-nav a {
-    color: #fff;
-    font-size: 16px;
-}

@@ -2,16 +2,47 @@
   background-color: #0b182b;
   justify-content: center;
   align-items: center;
-  background-size: cover;
   scroll-behavior: smooth;
-
+;
+  
   /*
     background-image: url(/src/Assets/page.png);
     background-size: cover;
-    display: block;
+    
     background-repeat: no-repeat;*/
+
 }
 
-.container {
-  max-height: 2600px;
+
+
+/*----------------------------------------------------------------*/
+
+
+@media all and (max-width: 591px) {
+  .a-MZ7AG {
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 411px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .container { 
+    margin: 0 25px;
+    padding: 0 12px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .navbar {
+    padding: 2px;
+    margin-left: 25px;
+  }
+
+  .container { 
+    margin: 0;
+    padding: 0 ;
+  }
 }

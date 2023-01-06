@@ -7,8 +7,8 @@ import "./index.css"
 
 export default function Home(){
     return (
-        <div className="App">
-          <div className="container">
+        <div className="container">
+          <div className="containerH">
             <div class="a-w0nw1">
               <Header />
             </div>

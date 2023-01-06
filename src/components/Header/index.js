@@ -19,8 +19,8 @@ export default function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link href="#Hab">Habilidades</Nav.Link>
-              <Nav.Link href="#Pro">Projetos</Nav.Link>
+              <Nav.Link href="#hab">Habilidades</Nav.Link>
+              <Nav.Link href="#pro">Projetos</Nav.Link>
               <Nav.Link href="#cont">Contatos</Nav.Link>
             </Nav>
           </Navbar.Collapse>

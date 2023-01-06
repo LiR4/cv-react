@@ -45,3 +45,13 @@
 #cont{
   color: #fff;
 }
+
+
+@media all and (max-width: 591px) {
+
+  .containerF {
+    font-size: 8px;
+    padding-top: 3rem;
+  }
+  
+}
